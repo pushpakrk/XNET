@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Disease Detector</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../static/images/favicons/site.webmanifest">
+
+        <meta name="keywords" content="cutom file input, styling, label, cross-browser, accessible, input type file" />
+		
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700%7CBarlow:300,400,500,600,700,800,900%7CPT+Sans:400,700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="../static/css/animate.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="../static/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="../static/css/magnific-popup.css">
+        <link rel="stylesheet" href="../static/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../static/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="../static/css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" href="../static/css/vimns-icons.css">
+
+            <!-- template styles -->
+        <link rel="stylesheet" href="../static/css/main.css">
+        <link rel="stylesheet" href="../static/css/responsive.css">
+
+
+
+        <style type="text/css">
+            input[type="file"]{
+        display: none;
+    }
+    .custom-file-upload {
+        border: 1px solid #ccc;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    input[type="file"] {
+        display: none;
+    }
+    
+    
+    element.style {
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+    
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+        </style>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../static/images/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicons/favicon-16x16.png" />
+        <link rel="manifest" href="../static/images/favicons/site.webmanifest" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <title>XNET: Deep Learning Based System for Radiologist</title>
+
+
+    </head>
+	
+    <body>
+
+        <header>
+            <div class="p-3 bg-dark text-white">
+    
+                <div class="row">
+                    <div class="col-sm-2 ">
+                        <img width="30%" src="../static/images/logo-1-1.png" alt="logo image" class="mx-auto d-block">
+                    </div>
+                    <div class="col-sm-10">
+                        <h1 class="text-center">
+                            XNET: Deep Learning Based System for Radiologist
+                        </h1>
+                    </div>
+                </div>
+    
+            </div>
+        </header>
+
+        <span>-</span>
+
+
+        <section class="prevention-one prevention-one__prevention-page">
+            <div class="container">
+                <div class="block-title text-center">
+                    <h3>Upload Image </h3>
+                    <br>
+                    <p style="font-size: 25px;">Please select the type of image you want to diagnose</p>
+                </div><!-- /.block-title text-center -->
+
+                <span>-</span>
+
+                
+                <div class="row">
+                    <div class="col-lg-6" style="padding-left: 100px;">
+                        <div class="card" style="width: 25rem;">
+                        <p class="card-title" style="text-align: center; padding-top: 10px;padding-bottom: 10px;color:white; background-color:#112559;">Chest X-Ray</p>
+                        <img class="card-img-top" src="../static/images/x-ray.png" height="200px" alt="Card image cap">
+                        <div class="card-body">
+                        
+                        <p class="card-text"></p>
+                        
+                        <div class="text-center">
+                        <form action = "/success" method = "post" enctype="multipart/form-data">  
+                        <label for="file-upload_1" id="label_1" class="custom-file-upload btn btn-primary" style="margin-top: 8px; margin-right: 10px;">
+                        Select Image
+                        </label>
+                        <input type="file" name="file" id="file-upload_1" onchange="showname()"/>  
+                        <input type = "submit" value="Upload" class="btn btn-success">  
+                        </form>
+                        </div>  
+
+                        </div>
+                        </div>
+
+                    </div><!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="card" style="width: 25rem;">
+                        <p class="card-title" style="text-align: center; padding-top: 10px;padding-bottom: 10px;color:white; background-color:#112559;">CT Scan</p>
+                        <img class="card-img-top" src="../static/images/ct-scan.png" height="200px" alt="Card image cap">
+                        <div class="card-body">
+                        
+                        <p class="card-text"></p>
+                        
+
+                        <div class="text-center">
+                        <form action = "/success_ct" method = "post" enctype="multipart/form-data">  
+                        <label for="file-upload_2" id="label_2" class="custom-file-upload btn btn-primary" style="margin-top: 8px; margin-right: 10px;">
+                        Select Image
+                        </label>
+                        <input type="file" name="file" id="file-upload_2" onchange="showname_2()"/>  
+                        <input type = "submit" value="Upload" class="btn btn-success">  
+                        </form>
+                        </div>
+
+                        </div>
+                        </div>
+                    </div><!-- /.col-lg-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.prevention-one -->
+
+        <span>-</span>
+
+        <section class="hand-wash-one">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p>4 Easy Steps </p>
+                    <h3>Hand Wash Procedure</h3>
+                </div><!-- /.block-title text-center -->
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="../static/images/shapes/hw-i-1-1.png" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>Use Soap</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="../static/images/shapes/hw-i-1-2.png" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>Palm to Palm</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="../static/images/shapes/hw-i-1-3.png" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>Fingers Interlaced</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="hand-wash-one__single">
+                            <div class="hand-wash-one__image">
+                                <img src="../static/images/shapes/hw-i-1-4.png" alt="">
+                            </div><!-- /.hand-wash-one__image -->
+                            <h3>Rinse Hands</h3>
+                        </div><!-- /.hand-wash-one__single -->
+                    </div><!-- /.col-lg-3 col-md-6 wow fadeInUp -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.hand-wash-one -->
+
+
+
+
+        <footer class="site-footer-one site-footer-one__home-one">
+
+
+            <div class="site-footer-one__bottom">
+                <div class="container">
+                    <p>© copyright 2022 by <a href="#">CDAC ACTS New Delhi</a></p>
+                </div><!-- /.container -->
+            </div><!-- /.site-footer-one__bottom -->
+        </footer><!-- /.site-footer-one -->
+    </div><!-- /.page-wrapper -->
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+
+    <script type="text/javascript">
+        
+        function showname () {
+      var name_1 = document.getElementById('file-upload_1'); 
+      document.getElementById('label_1').innerHTML = name_1.files.item(0).name; 
+    };
+    function showname_2 () {
+      var name_2 = document.getElementById('file-upload_2'); 
+      document.getElementById('label_2').innerHTML = name_2.files.item(0).name; 
+    };
+    </script>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/owl.carousel.min.js"></script>
+    <script src="../static/js/waypoints.min.js"></script>
+    <script src="../static/js/jquery.counterup.min.js"></script>
+    <script src="../static/js/TweenMax.min.js"></script>
+    <script src="../static/js/wow.js"></script>
+    <script src="../static/js/jquery.magnific-popup.min.js"></script>
+    <script src="../static/js/jquery.ajaxchimp.min.js"></script>
+    <script src="../static/js/jquery.validate.min.js"></script>
+    <script src="../static/js/bootstrap-select.min.js"></script>
+    <script src="../static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../static/js/bootstrap-datepicker.min.js"></script>
+    <script src="../static/js/isotope.js"></script>
+
+    <!-- template scripts -->
+    <script src="../static/js/theme.js"></script>
+    <script src="../static/js/testimonials-owl.carousel.config.js"></script>
+</body>
+
+</html>
