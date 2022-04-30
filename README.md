@@ -88,8 +88,8 @@ keras version 2.7.0
 
 OpenCV version 3.4.16
 
-Steps you can follow
-1. Download the prject zip file from this repo. https://github.com/pushpakrk/XNET
+Steps you can follow after installing all requirements.
+1. Download the project zip file from this repo. https://github.com/pushpakrk/XNET
 2. Extract it.
 3. Open your command line interface it can be Powershell or CMD.
 4. Go to the project folder using "cd" command.
