@@ -47,6 +47,7 @@ and for ct-scan images we have used Binary Classification beacuse there are only
 # Model used:
 At first i have selected 4 models mainly which are Inception, EfficientNetB0, ResNet50 and Xception.
 Here are the accuracies i got
+
 ![image](https://user-images.githubusercontent.com/93335175/166108595-b1a7d209-ed2f-4f1c-abc6-b837ba5e7bed.png)
 
 
