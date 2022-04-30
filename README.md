@@ -88,11 +88,12 @@ Pillow>=9.1.0
 os-sys>=2.1.4
 opencv-python>=4.5.5.64
 
-Download the prject zip file from this repo. https://github.com/pushpakrk/XNET
-Extract it.
-Open your command line interface it can be Powershell or CMD.
-Go to the project folder using "cd" command.
-Execute the app.py file by entering the command "python app.py"
-Now copy the URL you got from the Powershell or CMD and paste it in any browser you like.
-Boom! There you have it.
+Steps you can follow
+1. Download the prject zip file from this repo. https://github.com/pushpakrk/XNET
+2. Extract it.
+3. Open your command line interface it can be Powershell or CMD.
+4. Go to the project folder using "cd" command.
+5. Execute the app.py file by entering the command "python app.py"
+6. Now copy the URL you got from the Powershell or CMD and paste it in any browser you like.
+7. Boom! There you have it.
 
