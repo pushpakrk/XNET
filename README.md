@@ -72,4 +72,26 @@ Result for the CT-Scan images:
 ![image](https://user-images.githubusercontent.com/93335175/166108776-b15b3d25-cba5-4f2e-99bb-cda9b79e384b.png)
 
 
+# How To Run This Project
+in order to run this project you need to have following things installed on your system.
+Flask>=1.1.1
+gunicorn>=19.9.0
+numpy>=1.22.3
+scikit-learn>=0.20
+matplotlib>=3.5.1
+pandas>=1.4.2
+tensorflow>=2.8.0
+keras>=2.7.0
+Pillow>=9.1.0
+os-sys>=2.1.4
+opencv-python>=4.5.5.64
 
+Download the prject zip file from this repo. https://github.com/pushpakrk/XNET
+Extract it.
+Open your command line interface it can be Powershell or CMD.
+Go to the project folder using "cd" command.
+Execute the app.py file by entering the command "python app.py"
+Now copy the URL you got from the Powershell or CMD and paste it in any browser you like.
+Boom! There you have it.
+
+*NOTE*
