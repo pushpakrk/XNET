@@ -76,17 +76,16 @@ Result for the CT-Scan images:
 
 # How To Run This Project
 in order to run this project you need to have following things installed on your system.
-Flask>=1.1.1
-gunicorn>=19.9.0
-numpy>=1.22.3
-scikit-learn>=0.20
-matplotlib>=3.5.1
-pandas>=1.4.2
-tensorflow>=2.8.0
-keras>=2.7.0
-Pillow>=9.1.0
-os-sys>=2.1.4
-opencv-python>=4.5.5.64
+
+Python version 3.8
+
+Flask version 1.1.1
+
+tensorflow version 2.8.0
+
+keras version 2.7.0
+
+OpenCV version 3.4.16
 
 Steps you can follow
 1. Download the prject zip file from this repo. https://github.com/pushpakrk/XNET
