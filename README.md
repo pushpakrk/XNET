@@ -13,7 +13,7 @@ this web-application can detect Various diseases like Covid-19, Pneumonia, Tuber
 2. Large COVID-19 CT scan slice dataset. => (https://www.kaggle.com/datasets/maedemaftouni/large-covid19-ct-slice-dataset)
 
 
-1. Chest X-Ray (Pneumonia,Covid-19,Tuberculosis):
+A. Chest X-Ray (Pneumonia,Covid-19,Tuberculosis):
 This dataset is organized into 3 main folders (Test, Train, Val) and contains subfolders for each image category (Normal/Pneumonia/Covid-19/Tuberculosis). A total of 7135 x-ray images are present. of which 
 in Train set there are 460-Covid, 1341-normal, 3875-pneumonia, 650- tuberculosis.
 in Test Set 106-Covid, 234-normal, 390-pneumonia, 41- tuberculosis.
@@ -28,7 +28,7 @@ Tuberculosis (TB) Chest X-ray Database: A team of researchers from Qatar Univers
 Covid-19: Data is collected from public sources as well as through indirect collection from hospitals and physicians.
 
 
-2. Large COVID-19 CT scan slice dataset
+B. Large COVID-19 CT scan slice dataset
 in this Some of the datasets consist of categorized CT slices, and some include CT volumes with annotated lesion slices. 
 Therefore, Author used the slice-level annotations to extract axial slices from CT volumes. then converted all the images to 8-bit to have a consistent depth.
 we have gathered 7,593 COVID-19 images from 466 patients and 6,893 normal images from 604 patients
