@@ -10,7 +10,10 @@ this web-application can detect Various diseases like Covid-19, Pneumonia, Tuber
 
 
 1. Chest X-Ray (Pneumonia,Covid-19,Tuberculosis). => (https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis)
-2. Large COVID-19 CT scan slice dataset. => (https://www.kaggle.com/datasets/maedemaftouni/large-covid19-ct-slice-dataset)
+![image](https://user-images.githubusercontent.com/93335175/166108488-f53839f7-deb5-422f-884b-c344d8d184b0.png)
+
+3. Large COVID-19 CT scan slice dataset. => (https://www.kaggle.com/datasets/maedemaftouni/large-covid19-ct-slice-dataset)
+![image](https://user-images.githubusercontent.com/93335175/166108502-e81f850a-74e6-4091-ae14-74d4c5b48e0e.png)
 
 
 A. Chest X-Ray (Pneumonia,Covid-19,Tuberculosis):
@@ -32,3 +35,40 @@ B. Large COVID-19 CT scan slice dataset
 in this Some of the datasets consist of categorized CT slices, and some include CT volumes with annotated lesion slices. 
 Therefore, Author used the slice-level annotations to extract axial slices from CT volumes. then converted all the images to 8-bit to have a consistent depth.
 we have gathered 7,593 COVID-19 images from 466 patients and 6,893 normal images from 604 patients
+
+
+#Method used:
+i have used multiclass classification of the X-Ray images since there are 4 classes in total which are Normal, Covid, Pneumonia and Tuberculosis
+and for ct-scan images we have used Binary Classification beacuse there are only 2 classes which are Covid and Non-Covid
+
+# Transfer Learning: Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem.
+
+
+# Model used:
+At first i have selected 4 models mainly which are Inception, EfficientNetB0, ResNet50 and Xception.
+Here are the accuracies i got
+![image](https://user-images.githubusercontent.com/93335175/166108595-b1a7d209-ed2f-4f1c-abc6-b837ba5e7bed.png)
+
+
+of which then i have used ResNet50 model for X-Ray images and xception model for ct-scan images along with the transfer learning method
+to learn more about models you can visit these links ResNet50:https://keras.io/api/applications/resnet/  , xception:https://keras.io/api/applications/xception/
+
+
+# Project Architecture:
+![image](https://user-images.githubusercontent.com/93335175/166108696-627689d3-3fcd-478b-ac87-508de495953d.png)
+
+# Web Application screenshots: 
+
+Home Page
+![image](https://user-images.githubusercontent.com/93335175/166108730-a1be62c0-a4f1-4822-a1ca-6fe9b583f441.png)
+
+
+Result for the X-Ray images:
+![image](https://user-images.githubusercontent.com/93335175/166108761-52641965-0567-4137-95d7-c5f0eaefe92e.png)
+
+
+Result for the CT-Scan images:
+![image](https://user-images.githubusercontent.com/93335175/166108776-b15b3d25-cba5-4f2e-99bb-cda9b79e384b.png)
+
+
+
