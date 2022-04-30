@@ -43,7 +43,8 @@ we have gathered 7,593 COVID-19 images from 466 patients and 6,893 normal images
 i have used multiclass classification of the X-Ray images since there are 4 classes in total which are Normal, Covid, Pneumonia and Tuberculosis
 and for ct-scan images we have used Binary Classification beacuse there are only 2 classes which are Covid and Non-Covid
 
-# Transfer Learning: Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem.
+# Transfer Learning: 
+Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem.
 
 
 # Model used:
