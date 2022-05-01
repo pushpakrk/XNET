@@ -1,11 +1,10 @@
 # XNET: Deep Learning Based System for Radiologist.
 
 
-For every radiologist to use this project i have created a web-application with simple interface so that everyone can understand and use it for their purpose.
-this web-application can detect Various diseases like Covid-19, Pneumonia, Tuberculosis from Lungs X-Ray as well as CT-Scan Images by using deep learning and convolutional neural network.
+For every radiologist to use this project I have created a web application with a simple interface so that everyone can understand and use it for their purpose. this web application can detect Various diseases like Covid-19, Pneumonia, Tuberculosis from Lungs X-Ray as well as CT-Scan Images by using deep learning and convolutional neural network.
 
 
-*NOTE* : This project is made for Educational purpose. using this project in real life may give error or missguide the user. i suggest use of this project under the guidance of trained radiologist. any error happend due to this project in real life will not be considerd as a fault of the project owner Mr. Pushpak Ramesh Kalokhe.
+*NOTE* :  This project is made for educational purposes. using this project in real life may give errors or misguide the user. I suggest the use of this project under the guidance of a trained radiologist. any error that happened due to this project in real life will not be considered the fault of the project owner Mr. Pushpak Ramesh Kalokhe.
 
 ![XNET](https://user-images.githubusercontent.com/93335175/166135065-24e45eec-0da4-4ab0-90a7-a2ee2a29bd21.gif)
 
