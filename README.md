@@ -74,6 +74,8 @@ Result for the X-Ray images:
 Result for the CT-Scan images:
 ![image](https://user-images.githubusercontent.com/93335175/166108776-b15b3d25-cba5-4f2e-99bb-cda9b79e384b.png)
 
+or you can watch the demo video on YouTube https://youtu.be/8zw9yGF6s54
+
 
 # How To Run This Project
 in order to run this project you need to have following things installed on your system.
