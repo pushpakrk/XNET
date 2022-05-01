@@ -7,6 +7,7 @@ this web-application can detect Various diseases like Covid-19, Pneumonia, Tuber
 
 *NOTE* : This project is made for Educational purpose. using this project in real life may give error or missguide the user. i suggest use of this project under the guidance of trained radiologist. any error happend due to this project in real life will not be considerd as a fault of the project owner Mr. Pushpak Ramesh Kalokhe.
 
+![XNET](https://user-images.githubusercontent.com/93335175/166135065-24e45eec-0da4-4ab0-90a7-a2ee2a29bd21.gif)
 
 # Dataset used:
 
